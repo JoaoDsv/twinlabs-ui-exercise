@@ -18,6 +18,26 @@
   width: 68px;
 }
 
+.sidebar-header-notifications {
+  display: flex;
+  background-color: black;
+  border: 1px solid black;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+}
+
+.sidebar-header-notifications:hover {
+  background-color: white;
+  border: 1px solid white;
+  transition: all 0.2s;
+
+  img {
+    opacity: 70%;
+    transition: all 0.2s;
+  }
+}
+
 .sidebar-section-title {
   color: var(--grey400);
 }
