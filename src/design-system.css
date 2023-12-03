@@ -128,3 +128,59 @@ h3 {
 p {
   margin: 0;
 }
+
+/*
+--- 
+BUTTONS
+---
+*/
+
+button {
+  cursor: pointer;
+}
+
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+.button-light {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-shrink: 0;
+
+  color: var(--grey500);
+  font-size: 12px;
+  font-weight: 400;
+
+  padding: 12px 20px 12px 12px;
+  border-radius: 4px;
+  border: 1px solid var(--grey200);
+  background-color: white;
+
+  transition: all 0.3s;
+}
+
+.button-light:hover {
+  background-color: var(--grey200);
+  transition: all 0.3s;
+}
+
+.button-dark {
+  color: white;
+  font-size: 12px;
+  font-weight: 700;
+
+  padding: 16px 0;
+  border: 1px solid var(--grey600);
+  border-radius: 7px;
+  background-color: var(--grey700);
+
+  transition: all 0.3s;
+}
+
+.button-dark:hover {
+  background-color: var(--grey500);
+  transition: all 0.3s;
+}
