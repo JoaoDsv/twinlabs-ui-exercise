@@ -1,4 +1,7 @@
 .sidebar-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   padding: 14px 30px;
   background-color: var(--grey800);
 }
@@ -43,4 +46,19 @@
   align-items: center;
 
   margin-left: 6px;
+}
+
+.sidebar-footer {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.sidebar-footer-version {
+  display: flex;
+  align-self: center;
+
+  font-size: 10px;
+  font-weight: 700;
+  color: var(--grey300);
 }
