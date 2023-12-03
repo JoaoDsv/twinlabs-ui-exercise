@@ -7,6 +7,7 @@ import {
   RouterProvider,
 } from "react-router-dom";
 
+import "./App.css";
 import { Home } from "./routes/Home";
 import { Notifications } from "./routes/Notifications";
 
@@ -21,7 +22,7 @@ function App() {
   );
 
   return (
-    <div className="app-wrapper">
+    <div className="app-layout">
       <RouterProvider router={router} />
     </div>
   );
@@ -35,7 +36,7 @@ function RootLayout() {
         <Link to="/notifications">Notifications</Link>
       </nav>
 
-      <div>
+      <div className="scrollable">
         <Outlet />
       </div>
     </>

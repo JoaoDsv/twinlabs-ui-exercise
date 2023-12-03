@@ -1,0 +1,16 @@
+.app-layout {
+  display: grid;
+  grid-template-columns: 354px 1fr;
+  grid-template-rows: 1fr;
+
+  border-radius: 28px;
+  background-color: white;
+  overflow: auto;
+
+  height: calc(100vh - 44px);
+  width: calc(100% - 20px);
+}
+
+.scrollable {
+  overflow: scroll;
+}

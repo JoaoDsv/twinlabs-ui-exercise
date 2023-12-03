@@ -36,6 +36,10 @@ html {
 
 body {
   background-color: var(--grey200);
+  padding: 16px;
+  margin: 0;
+  overflow: hidden;
+  scrollbar-gutter: stable both-edges;
 }
 
 .color-white {
