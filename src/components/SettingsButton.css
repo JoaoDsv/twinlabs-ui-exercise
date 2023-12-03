@@ -1,0 +1,24 @@
+.settings-button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+
+  height: 28px;
+  flex-shrink: 0;
+  font-size: 10px;
+  font-weight: 500;
+
+  padding: 0 12px 0 5px;
+  border-radius: 18px;
+  border: 1px solid var(--grey200);
+  background-color: white;
+}
+
+.settings-button-image {
+  width: 18px;
+  height: 18px;
+  flex-shrink: 0;
+
+  border-radius: 50%;
+}

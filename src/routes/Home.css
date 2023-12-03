@@ -31,3 +31,10 @@
 
   margin-top: 38px;
 }
+
+.home-page-header {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 16px;
+}
