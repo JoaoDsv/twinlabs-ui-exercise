@@ -1,0 +1,46 @@
+.notification {
+  display: flex;
+
+  align-items: center;
+  gap: 20px;
+
+  padding: 24px;
+  background-color: var(--grey100);
+}
+
+.notification-red-dot {
+  width: 8px;
+  height: 8px;
+  flex-shrink: 0;
+
+  border-radius: 50%;
+  background-color: var(--red900);
+}
+
+.notification-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+
+  width: 24px;
+  height: 24px;
+
+  border-radius: 50%;
+}
+
+.pink {
+  background-color: var(--pink100);
+}
+
+.red {
+  background-color: var(--red100);
+}
+
+.grey {
+  background-color: var(--grey100);
+}
+
+.bold {
+  font-weight: 700;
+}
