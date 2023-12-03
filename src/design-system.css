@@ -52,3 +52,64 @@ body {
   color: var(--red900);
 }
 
+/*
+--- 
+FONT SYSTEM
+---
+*/
+.title-1 {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 27px;
+  color: var(--grey700);
+}
+
+.title-2 {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 27px;
+  color: var(--grey700);
+}
+
+/* Workflow card title, navigation links bold */
+.title-3 {
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 16px;
+}
+
+/* Notification */
+.text-1 {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  color: var(--grey700);
+}
+
+/* Workflow card description */
+.text-2 {
+  font-size: 9px;
+  font-weight: 400;
+  line-height: 15px;
+  color: var(--grey900);
+}
+
+/* Navigation links light */
+.text-3 {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+}
+
+/* 12h ago */
+.tiny-1 {
+  font-size: 7px;
+  font-weight: 700;
+}
+
+/* Saves 8h/week */
+.tiny-2 {
+  font-size: 7px;
+  font-weight: 600;
+  color: var(--grey600);
+}
