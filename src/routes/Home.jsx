@@ -25,6 +25,15 @@ export function Home() {
           <WorkflowCard />
           <WorkflowCard />
         </div>
+        <div className="home-page-section-wrapper">
+          <button
+            className="button-light home-page-button-proposal"
+            type="button"
+          >
+            <img src="/icon-send.svg" alt="Send icon" />
+            Propose a workflow
+          </button>
+        </div>
       </div>
     </div>
   );
