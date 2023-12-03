@@ -1,0 +1,18 @@
+.notifications-page-header {
+  padding: 28px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.notifications-page-header-right {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.notifications-page-body {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
