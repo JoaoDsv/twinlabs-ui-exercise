@@ -1,13 +1,13 @@
 import {
   createBrowserRouter,
   createRoutesFromElements,
-  Link,
   Outlet,
   Route,
   RouterProvider,
 } from "react-router-dom";
 
 import "./App.css";
+import { SideBar } from "./components/navigation/SideBar";
 import { Home } from "./routes/Home";
 import { Notifications } from "./routes/Notifications";
 
@@ -31,10 +31,7 @@ function App() {
 function RootLayout() {
   return (
     <>
-      <nav>
-        <Link to="/">Home</Link>
-        <Link to="/notifications">Notifications</Link>
-      </nav>
+      <SideBar />
 
       <div className="scrollable">
         <Outlet />

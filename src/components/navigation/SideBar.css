@@ -1,0 +1,38 @@
+.sidebar-wrapper {
+  padding: 14px 30px;
+  background-color: var(--grey800);
+}
+
+.sidebar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-top: 12px;
+}
+
+.sidebar-header-logo {
+  width: 68px;
+}
+
+.sidebar-section-title {
+  color: var(--grey400);
+}
+
+.sidebar-workflow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sidebar-workflow-link {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+
+  text-decoration: none;
+}
+
+.sidebar-workflow-link--light {
+  font-weight: 400;
+}
