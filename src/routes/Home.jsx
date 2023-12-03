@@ -20,12 +20,15 @@ export function Home() {
         <div className="home-page-section-wrapper">
           <WorkflowCard
             integrations={["linkedin", "tc", "p", "gmail"]}
+            enabled={true}
           />
           <WorkflowCard
             integrations={["chrome", "gcalendar", "linkedin", "gmail"]}
+            enabled={true}
           />
           <WorkflowCard
             integrations={["chrome", "cb", "linkedin", "gmail"]}
+            enabled={true}
           />
           <WorkflowCard integrations={["linkedin", "tc", "p", "gmail"]} />
           <WorkflowCard

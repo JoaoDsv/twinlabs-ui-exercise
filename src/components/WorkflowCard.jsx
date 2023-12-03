@@ -1,9 +1,11 @@
 import { IntegrationCircle } from "./IntegrationCircle";
 import "./WorkflowCard.css";
 
-export function WorkflowCard() {
+export function WorkflowCard({ integrations, enabled }) {
   return (
     <div className="workflow-card">
+      {enabled ?? <div className="overlay"></div>}
+
       <div className="workflow-card-header">
         <div className="workflow-card-header-left">
           <div className="workflow-card-header-integrations">
