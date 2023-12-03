@@ -36,3 +36,11 @@
 .sidebar-workflow-link--light {
   font-weight: 400;
 }
+
+.sidebar-workflow-integrations {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+
+  margin-left: 6px;
+}

@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 
+import { IntegrationCircle } from "../IntegrationCircle";
 import "./SideBar.css";
 
 export function SideBar() {
@@ -24,6 +25,11 @@ export function SideBar() {
           <Link to="/" className="sidebar-workflow-link title-3 color-white">
             <span className="sidebar-workflow-link--light">News tracker |</span>
             Gekko
+            <div className="sidebar-workflow-integrations">
+              <IntegrationCircle />
+              <IntegrationCircle />
+              <IntegrationCircle />
+            </div>
           </Link>
           <div className="sidebar-workflow-time tiny-1 color-white">
             12h ago
