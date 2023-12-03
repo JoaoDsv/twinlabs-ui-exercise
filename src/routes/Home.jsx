@@ -18,12 +18,20 @@ export function Home() {
           customise it, and let it run in the background for you.
         </p>
         <div className="home-page-section-wrapper">
-          <WorkflowCard />
-          <WorkflowCard />
-          <WorkflowCard />
-          <WorkflowCard />
-          <WorkflowCard />
-          <WorkflowCard />
+          <WorkflowCard
+            integrations={["linkedin", "tc", "p", "gmail"]}
+          />
+          <WorkflowCard
+            integrations={["chrome", "gcalendar", "linkedin", "gmail"]}
+          />
+          <WorkflowCard
+            integrations={["chrome", "cb", "linkedin", "gmail"]}
+          />
+          <WorkflowCard integrations={["linkedin", "tc", "p", "gmail"]} />
+          <WorkflowCard
+            integrations={["chrome", "gcalendar", "linkedin", "gmail"]}
+          />
+          <WorkflowCard integrations={["chrome", "cb", "linkedin", "gmail"]} />
         </div>
         <div className="home-page-section-wrapper">
           <button

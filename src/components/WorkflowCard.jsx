@@ -7,9 +7,10 @@ export function WorkflowCard() {
       <div className="workflow-card-header">
         <div className="workflow-card-header-left">
           <div className="workflow-card-header-integrations">
-            <IntegrationCircle />
-            <IntegrationCircle />
-            <IntegrationCircle />
+            <IntegrationCircle product={integrations[0]} />
+            <IntegrationCircle product={integrations[1]} />
+            <IntegrationCircle product={integrations[2]} />
+            <IntegrationCircle product={integrations[3]} />
           </div>
           <p className="tiny-2">⏳ Saves 8h/week</p>
         </div>

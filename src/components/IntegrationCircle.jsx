@@ -1,11 +1,11 @@
 import "./IntegrationCircle.css";
 
-export function IntegrationCircle() {
+export function IntegrationCircle({ product }) {
   return (
     <img
       className="integration-circle"
-      src="/integration-gmail.svg"
-      alt="This workflow includes Gmail integration"
+      src={`/integration-${product}.svg`}
+      alt={`This workflow includes ${product} integration`}
     />
   );
 }

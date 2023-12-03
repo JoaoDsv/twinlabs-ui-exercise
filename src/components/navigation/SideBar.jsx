@@ -29,9 +29,9 @@ export function SideBar() {
               </span>
               Gekko
               <div className="sidebar-workflow-integrations">
-                <IntegrationCircle />
-                <IntegrationCircle />
-                <IntegrationCircle />
+                <IntegrationCircle product="tc" />
+                <IntegrationCircle product="p" />
+                <IntegrationCircle product="gmail" />
               </div>
             </Link>
             <div className="sidebar-workflow-time tiny-1 color-white">
@@ -47,6 +47,11 @@ export function SideBar() {
                 Company research |
               </span>
               OpenAI
+              <div className="sidebar-workflow-integrations">
+                <IntegrationCircle product="tc" />
+                <IntegrationCircle product="p" />
+                <IntegrationCircle product="gmail" />
+              </div>
             </Link>
             <div className="sidebar-workflow-time tiny-1 color-white">
               12h ago
