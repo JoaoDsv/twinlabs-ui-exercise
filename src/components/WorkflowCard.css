@@ -42,10 +42,15 @@
   align-items: center;
   gap: 12px;
 }
+
 .workflow-card-header-integrations {
   display: flex;
   flex-direction: row-reverse;
   align-items: center;
+}
+
+.workflow-card-header-save {
+  margin-top: 6px;
 }
 
 .workflow-card-header-button {

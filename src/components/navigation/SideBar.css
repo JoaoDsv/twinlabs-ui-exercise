@@ -57,7 +57,12 @@
 }
 
 .sidebar-workflow-link--light {
+  margin-top: 6px;
   font-weight: 400;
+}
+
+.sidebar-workflow-link--bold {
+  margin-top: 6px;
 }
 
 .sidebar-workflow-integrations {
@@ -66,6 +71,10 @@
   align-items: center;
 
   margin-left: 6px;
+}
+
+.sidebar-workflow-time {
+  margin-top: 6px;
 }
 
 .sidebar-footer {

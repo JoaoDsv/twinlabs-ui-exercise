@@ -14,7 +14,7 @@ export function WorkflowCard({ integrations, enabled }) {
             <IntegrationCircle product={integrations[2]} />
             <IntegrationCircle product={integrations[3]} />
           </div>
-          <p className="tiny-2">⏳ Saves 8h/week</p>
+          <p className="tiny-2 workflow-card-header-save">⏳ Saves 8h/week</p>
         </div>
         <button className="workflow-card-header-button" type="button">
           <img
