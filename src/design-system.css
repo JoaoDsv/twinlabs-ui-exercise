@@ -1,0 +1,54 @@
+html {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+
+  /*
+  ---
+  COLOR PALETTE
+  ---
+  */
+  --grey900: #202020;
+  --grey800: #303030;
+  --grey700: #383838;
+  --grey600: #575757;
+  --grey500: #686868;
+  --grey400: #717171;
+  --grey300: #949494;
+  --grey200: #eaeaea;
+  --grey100: #f6f6f6;
+  /* 50% opacity for notification banner; */
+
+  --pink900: #9c6cfe;
+  /* 5% opacity for notification banner; */
+
+  --red900: #f00;
+  --red100: #ffeeee;
+  /* 50% opacity for notification banner; */
+
+  color-scheme: light;
+  color: var(--grey900);
+}
+
+body {
+  background-color: var(--grey200);
+}
+
+.color-white {
+  color: white;
+}
+
+.color-pink {
+  color: var(--pink900);
+}
+
+.color-red {
+  color: var(--red900);
+}
+
