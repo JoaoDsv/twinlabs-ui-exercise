@@ -23,14 +23,12 @@ html {
   --grey300: #949494;
   --grey200: #eaeaea;
   --grey100: #f6f6f6;
-  /* 50% opacity for notification banner; */
 
   --pink900: #9c6cfe;
-  /* 5% opacity for notification banner; */
+  --pink100: #e6fafa;
 
   --red900: #f00;
   --red100: #ffeeee;
-  /* 50% opacity for notification banner; */
 
   color-scheme: light;
   color: var(--grey900);
@@ -112,4 +110,21 @@ FONT SYSTEM
   font-size: 7px;
   font-weight: 600;
   color: var(--grey600);
+}
+
+/*
+--- 
+SPACING SYSTEM
+---
+*/
+h1 {
+  margin: 0 0 0 0;
+}
+
+h3 {
+  margin: 38px 0 18px 0;
+}
+
+p {
+  margin: 0;
 }
