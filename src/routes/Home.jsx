@@ -1,12 +1,14 @@
 import "./Home.css";
 import { WorkflowCard } from "../components/WorkflowCard";
 import { SettingsButton } from "../components/SettingsButton";
+import { LogOutButton } from "../components/LogOutButton";
 
 export function Home() {
   return (
     <div className="home-page-wrapper">
       <div className="home-page-header">
         <SettingsButton />
+        <LogOutButton />
       </div>
 
       <div className="home-page-body">
