@@ -14,12 +14,11 @@ export function Notifications() {
         </div>
       </div>
       <div className="notifications-page-body">
-        <NotificationItem />
-        <NotificationItem />
-        <NotificationItem />
-        <NotificationItem />
-        <NotificationItem />
-        <NotificationItem />
+        <NotificationItem color="red" />
+        <NotificationItem color="pink" />
+        <NotificationItem color="pink" />
+        <NotificationItem color="grey" />
+        <NotificationItem color="grey" />
       </div>
     </>
   );

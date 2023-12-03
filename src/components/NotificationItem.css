@@ -41,6 +41,18 @@
   background-color: var(--grey100);
 }
 
+.icon-pink {
+  background-color: var(--pink900);
+}
+
+.icon-red {
+  background-color: var(--red900);
+}
+
+.icon-grey {
+  background-color: var(--grey900);
+}
+
 .bold {
   font-weight: 700;
 }
